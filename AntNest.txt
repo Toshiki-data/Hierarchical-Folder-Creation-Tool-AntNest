@@ -1,0 +1,26 @@
+C:\Users\Toshiki\Desktop\tool
+Japan	
+	Tokyo
+		Asakusa
+			Photos
+			Videos
+		DisneySea
+			Photos
+			Videos
+	Kyoto
+		Gion
+			Photos
+			Videos
+France
+	Paris
+		TourEffel
+			Photos
+			Videos
+
+
+
+
+
+
+
+
