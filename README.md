@@ -1,4 +1,4 @@
-A tool that creates hierarchical folders based on text data.
+🐜A tool that creates hierarchical folders based on text data.
 
 «Right-click, create new folders, typing folder name…»
 
@@ -31,7 +31,7 @@ Just write the folder hierarchy in a text file and run the program.
 
 ============================================================
 
-Un outil qui crée des dossiers hiérarchiques à partir d’un fichier texte.
+🐜Un outil qui crée des dossiers hiérarchiques à partir d’un fichier texte.
 
 «Clic droit, nouveau dossier, saisie du nom…»
 
