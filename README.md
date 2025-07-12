@@ -6,6 +6,8 @@ You don’t need to repeat that for every folder!
 
 Just write the folder hierarchy in a text file and run the program.
 
+👉 [Download from the latest release](https://github.com/Toshiki-data/Hierarchical-Folder-Creation-Tool-AntNest/releases/latest)
+
 ■ How to use
 
 ① Place the text file "AntNest.txt" and the .exe file "AntNest.exe" in a same folder.
@@ -38,6 +40,8 @@ Just write the folder hierarchy in a text file and run the program.
 Vous n’avez plus besoin de répéter ça pour chaque dossier !
 
 Il suffit de décrire la structure hiérarchique dans un fichier texte et d’exécuter le programme.
+
+👉 [Download from the latest release](https://github.com/Toshiki-data/Hierarchical-Folder-Creation-Tool-AntNest/releases/latest)
 
 ■ Mode d’emploi
 
