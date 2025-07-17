@@ -29,19 +29,19 @@ with open("AntNest_log.txt", "w", encoding="utf-8") as log:
             continue
 
         ## Remove trailing spaces from the folder name
-        folder_name_wTab = line.rstrip()
+        folder_name_wTabL = line.rstrip()
 
-        ## Check if the folder name contains spaces or tabs (terminate with an error if so, to avoid processing issues)
-        if re.search(r'\s+', folder_name_wTab.lstrip()):
-            message = f"⚠️ Failure: Space or Tab in a folder name.\n"
+        ## Check if the folder name contains tabs (terminate with an error if so, to avoid processing issues)
+        if re.search(r'\t', folder_name_wTabL.lstrip()):
+            message = f"⚠️ Failure: Tab found in a folder name.\n"
             log.write(message)
             sys.exit()
 
         ## Count the number of leading tabs in the folder name
-        depth_current = folder_name_wTab.count("\t") + 1
+        depth_current = folder_name_wTabL.count("\t") + 1
 
        ## Remove leading spaces from the folder name
-        folder_name = folder_name_wTab.lstrip()
+        folder_name = folder_name_wTabL.lstrip()
 
         ## If the folder level is deeper than the previous
         if depth_current > depth_set:
